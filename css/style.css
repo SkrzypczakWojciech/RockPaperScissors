@@ -1,54 +1,49 @@
-body {
-  padding: 10px;
-  text-align: center;
+.title {
+  padding:7px;
+  position:absolute;
+  top:0%;
+  color:#135193;
+  opacity:0.8;
+  border:2px #135193 solid;
+  border-radius:10px;
+  font-family: 'Bowlby One SC', cursive;
+
 }
 
 .container {
-  max-width: 400px;
-  margin: 0 auto;
+ position:relative;
+ margin:0 auto;
+ background-color:#a89928;
+ width:500px;
+ height:300px;
+  border-radius:50px;
+}
+div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+button {
+  padding:30px;
+  margin:10px;  
 }
-.overlay.show {
-  display: block;
+.ramka {
+  text-align:center;
+  width:500px;
+  height:300px;
+  border:5px #a89928 solid;
+  color:#a89928;
+  font-family: 'Bowlby One SC', cursive;
+  font-size:19px;
 }
-
-.modal {
-  display: none;
-  background: #fff;
-  width: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
+body {
+display:flex;
+justify-content:space-between;
 }
-.modal.show {
-  display: block;
+.special {
+color:blue;
 }
-.modal .close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 5px;
-  color: #000;
-  text-decoration: none;
-}
-.modal header {
-  font-size: 20px;
-  line-height: 30px;
-  min-height: 30px;
-  font-weight: bold;
-  padding: 0 30px;
-}
-.modal .content {
-  min-height: 30px;
-  padding: 5px 30px;
+.photo {
+  background-image:url()
 }

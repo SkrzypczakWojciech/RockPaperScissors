@@ -9,7 +9,6 @@
   font-family: 'Bowlby One SC', cursive;
 
 }
-
 .container {
  position:relative;
  margin:0 auto;
@@ -29,6 +28,15 @@ button {
   margin:10px;  
 }
 .ramka {
+  text-align:center;
+  width:500px;
+  height:300px;
+  border:5px #a89928 solid;
+  color:#a89928;
+  font-family: 'Bowlby One SC', cursive;
+  font-size:19px;
+}
+.ramka2 {
   text-align:center;
   width:500px;
   height:300px;
